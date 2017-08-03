@@ -15,6 +15,7 @@ h2 {
   font-weight: normal;
   margin-bottom: 5px;
 }
+
 p {
   font-size:16px;
   line-height: 19px;
@@ -30,6 +31,47 @@ p {
   padding-right: 15px;
   position: relative;
 }
+
+.container1 {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  padding-bottom: 0px;
+}
+
+
+.container2 {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.container3 {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: absolute;
+  padding-top: 20px;
+}
+
+.container4 {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+
+
+
 .container:before,
 .container:after {
   content: " ";
@@ -267,6 +309,7 @@ header .hero img {
  .testimonials ul li {
    list-style-type: none;
  }
+
  .testimonials blockquote {
    color:#FFFFFF;
    text-align: left;
@@ -299,6 +342,7 @@ header .hero img {
   display: inline-block;
   margin:20px 10px 0 0;
 }
+
 .testimonials p.name {
   float: left;
   display: inline-block;
